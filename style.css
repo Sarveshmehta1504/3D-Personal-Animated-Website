@@ -103,12 +103,13 @@ canvas{
     font-size: 22px;
 }
 
-#nav>button{
+#nav>a>button{
     padding: 10px 20px;
     border-radius: 50px;
     background-color: #000;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -225,4 +226,9 @@ canvas{
 #page3>#text4>p{
     font-weight: 500;
     z-index: 99;
+}
+
+#nav>a>button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 52, 52);
 }
